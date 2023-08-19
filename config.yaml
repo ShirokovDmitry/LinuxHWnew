@@ -1,8 +1,16 @@
-folder_in: /home/linux/tst/file
-folder_out: /home/linux/tst/out
-folder_ext: /home/linux/tst/ext
-folder_badarx: /home/linux/tst/badarx
+folder_in: /home/user2/tst/file
+folder_out: /home/user2/tst/out
+folder_ext: /home/user2/tst/ext
+folder_badarx: /home/user2/tst/badarx
+
 
 archive_type: 7z
 count_file: 2
 size_file: 5M
+
+local_path: /home/linux
+remote_path: /home/user2
+host: 0.0.0.0
+user: user2
+
+stat_file: /home/user2/stat.txt
